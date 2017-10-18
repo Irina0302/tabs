@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: 360px;
+
     & .content__img {
         width: 40%;
         padding: 15px 40px 10px 20px;
@@ -14,8 +15,11 @@
         padding-right: 50px;
         width: 60%;
         height: 307px;
-        
+
     }
+}
+.content__wrap--hidden{
+    display: none;
 }
 
 h2 {
