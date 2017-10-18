@@ -1,0 +1,40 @@
+.content__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 360px;
+    & .content__img {
+        width: 40%;
+        padding: 15px 40px 10px 20px;
+        height: 307px;
+    }
+
+    &.content__text {
+        padding-right: 50px;
+        width: 60%;
+        height: 307px;
+        
+    }
+}
+
+h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #fdfdfd;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+p {
+    font-size: 14px;
+    color: #b7bacd;
+    line-height: 1.57em;
+    margin-bottom: 55px
+}

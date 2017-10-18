@@ -1,0 +1,39 @@
+.footer {
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    
+    & .footer__price {
+        font-size: 32px;
+        color: #fff;
+    }
+    & .footer__sale {
+        font-size: 12px;
+        color: #fedc3f;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    & .footer__btn {
+        width: 165px;
+        height: 55px;
+        background-color: #13e28d;
+        border: 3px solid transparent;
+        border-radius: 3px;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    footer__btn: hover {
+        transition: all 0.3s ease-in-out;
+        background-color: #3e4cb4;
+    }
+
+
+}

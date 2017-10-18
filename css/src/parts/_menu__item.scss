@@ -1,0 +1,10 @@
+.menu__item {
+    padding-top: 25px;
+    & .link__active {
+        background-color: red;
+    }
+}
+
+.menu__img {
+    padding: 10px;
+}

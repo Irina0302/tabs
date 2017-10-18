@@ -1,0 +1,42 @@
+.container {
+    
+    margin: 0 auto;
+    width: 602px;
+    height: 543px;
+    margin-top: 100px;
+    box-shadow: 0 23px 57px rgba(0, 0, 0, 0.4);
+    background-color: #212534;
+    background-color: #303242;
+    background-image: url(/img/layer-41.png);
+    opacity: 0.9;
+    & .header {
+        height: 100px;
+    }
+    
+
+
+    & .menu {
+        height: 60px;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        & .menu__img {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+
+
+        }
+
+        & a {
+            text-decoration: none;
+            color: azure;
+
+        }
+    }
+}
